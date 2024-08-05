@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--google font-->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-    </style>
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
     <!--some code copied from code institute project walkthrough-->
-    <h1 class="heading">Rock, Paper, Scissors</h1>
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+        <div class="choices">
+            <button onclick="playGame('rock')">Rock</button>
+            <button onclick="playGame('paper')">Paper</button>
+            <button onclick="playGame('scissors')">Scissors</button>
+            <button onclick="playGame('lizard')">Lizard</button>
+            <button onclick="playGame('spock')">Spock</button>
+        </div>
+        <div class="result" id="result"></div>
 
-    <div class="game-area">
-
-    </div>
-    <div class="score-area">
-
-    </div>
-    <script src="assets/js/script.js/"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
