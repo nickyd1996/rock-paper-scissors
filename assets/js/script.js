@@ -48,14 +48,17 @@ function playGame(playerChoice) {
     document.getElementById('score').innerText = `Tries: ${tries} | Player Wins: ${playerWins} | Computer Wins: ${computerWins}`;
 
     if (tries >= 5) {
-        if (playerWins > computerWins) {
-            document.getElementById('finalResult').innerText = "Congratulations! You won the game!";
-        } else if (computerWins > playerWins) {
-            document.getElementById('finalResult').innerText = "Sorry, you lost the game!";
-        } else {
-            document.getElementById('finalResult').innerText = "It's a draw!";
+            if (playerWins > computerWins) {
+                document.getElementById('finalMessage').innerText = "Congratulations! You won the game!";
+            } else if (computerWins > playerWins) {
+                document.getElementById('finalMessage').innerText = "Sorry, you lost the game!";
+            } else {
+                document.getElementById('finalMessage').innerText = "It's a draw!";
+            }
+            document.getElementById('gamePage').style.display = 'none';
+            document.getElementById('restartPage').style.display = 'flex';
         }
-    }
+    
 }
 function restartGame() {
     document.getElementById('restartPage').style.display = 'none';
