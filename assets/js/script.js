@@ -1,14 +1,32 @@
+let tries = 0;
+let playerWins = 0;
+let computerWins = 0;
+
 function startGame() {
     document.getElementById('startPage').style.display = 'none';
-    document.getElementById('gamePage').style.display = 'block';
+    document.getElementById('gamePage').style.display = 'flex';
+    resetGame();
+}
+
+function resetGame() {
+    tries = 0;
+    playerWins = 0;
+    computerWins = 0;
+    document.getElementById('score').innerText = `Tries: 0 | Player Wins: 0 | Computer Wins: 0`;
+    document.getElementById('finalResult').innerText = '';
+    document.getElementById('result').innerText = '';
 }
 
 function playGame(playerChoice) {
+    if (tries >= 5) {
+        return;
+    }
+
     const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
     const computerChoice = choices[Math.floor(Math.random() * 5)];
-    
+
     let result = '';
-    
+
     if (playerChoice === computerChoice) {
         result = "It's a tie!";
     } else if (
@@ -19,9 +37,23 @@ function playGame(playerChoice) {
         (playerChoice === 'spock' && (computerChoice === 'scissors' || computerChoice === 'rock'))
     ) {
         result = `You win! ${playerChoice} beats ${computerChoice}`;
+        playerWins++;
     } else {
         result = `You lose! ${computerChoice} beats ${playerChoice}`;
+        computerWins++;
     }
-    
+
+    tries++;
     document.getElementById('result').innerText = result;
+    document.getElementById('score').innerText = `Tries: ${tries} | Player Wins: ${playerWins} | Computer Wins: ${computerWins}`;
+
+    if (tries >= 5) {
+        if (playerWins > computerWins) {
+            document.getElementById('finalResult').innerText = "Congratulations! You won the game!";
+        } else if (computerWins > playerWins) {
+            document.getElementById('finalResult').innerText = "Sorry, you lost the game!";
+        } else {
+            document.getElementById('finalResult').innerText = "It's a draw!";
+        }
+    }
 }

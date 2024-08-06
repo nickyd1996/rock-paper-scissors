@@ -10,7 +10,7 @@
     <!--some code copied from code institute project walkthrough-->
     <div id="startPage" class="page">
         <h1>Welcome to Rock Paper Scissors Lizard Spock</h1>
-        <button onclick="startGame()">Start Game</button>
+        <button id="startGameButton" onclick="startGame()">Start Game</button>
     </div>
     <div id="gamePage" class="page" style="display: none;">
         <h1>Rock Paper Scissors Lizard Spock</h1>
@@ -21,6 +21,8 @@
             <button class="lizard" onclick="playGame('lizard')">Lizard</button>
             <button class="spock" onclick="playGame('spock')">Spock</button>
         </div>
+        <div class="score" id="score">Tries: 0 | Player Wins: 0 | Computer Wins: 0</div>
+        <div class="final-result" id="finalResult"></div>
         <div class="result" id="result"></div>
     </div>
     <script src="assets/js/script.js"></script>
