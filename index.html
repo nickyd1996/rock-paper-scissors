@@ -8,6 +8,11 @@
 </head>
 <body>
     <!--some code copied from code institute project walkthrough-->
+    <div id="startPage" class="page">
+        <h1>Welcome to Rock Paper Scissors Lizard Spock</h1>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+    <div id="gamePage" class="page" style="display: none;">
         <h1>Rock Paper Scissors Lizard Spock</h1>
         <div class="choices">
             <button onclick="playGame('rock')">Rock</button>
@@ -17,7 +22,7 @@
             <button onclick="playGame('spock')">Spock</button>
         </div>
         <div class="result" id="result"></div>
-
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

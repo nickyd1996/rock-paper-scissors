@@ -1,3 +1,8 @@
+function startGame() {
+    document.getElementById('startPage').style.display = 'none';
+    document.getElementById('gamePage').style.display = 'block';
+}
+
 function playGame(playerChoice) {
     const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
     const computerChoice = choices[Math.floor(Math.random() * 5)];

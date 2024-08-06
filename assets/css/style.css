@@ -3,12 +3,22 @@ body {
     text-align: center;
     margin-top: 50px;
 }
+
+.page {
+    display: none;
+}
+
+#startPage {
+    display: block;
+}
+
 .choices button {
     padding: 10px 20px;
     font-size: 18px;
     margin: 10px;
     cursor: pointer;
 }
+
 .result {
     margin-top: 20px;
     font-size: 24px;
