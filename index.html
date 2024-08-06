@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
@@ -12,14 +12,14 @@
         <h1>Welcome to Rock Paper Scissors Lizard Spock</h1>
         <button onclick="startGame()">Start Game</button>
     </div>
-    <div id="gamePage" class="page">
+    <div id="gamePage" class="page" style="display: none;">
         <h1>Rock Paper Scissors Lizard Spock</h1>
         <div class="choices">
-            <button onclick="playGame('rock')">Rock</button>
-            <button onclick="playGame('paper')">Paper</button>
-            <button onclick="playGame('scissors')">Scissors</button>
-            <button onclick="playGame('lizard')">Lizard</button>
-            <button onclick="playGame('spock')">Spock</button>
+            <button class="rock" onclick="playGame('rock')">Rock</button>
+            <button class="paper" onclick="playGame('paper')">Paper</button>
+            <button class="scissors" onclick="playGame('scissors')">Scissors</button>
+            <button class="lizard" onclick="playGame('lizard')">Lizard</button>
+            <button class="spock" onclick="playGame('spock')">Spock</button>
         </div>
         <div class="result" id="result"></div>
     </div>
