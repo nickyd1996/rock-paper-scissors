@@ -57,3 +57,7 @@ function playGame(playerChoice) {
         }
     }
 }
+function restartGame() {
+    document.getElementById('restartPage').style.display = 'none';
+    document.getElementById('startPage').style.display = 'flex';
+}
