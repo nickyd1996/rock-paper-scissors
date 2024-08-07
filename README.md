@@ -230,17 +230,13 @@ GitHub Pages used to deploy live version of the website.
 
 ### Code
 
- * I gained an understanding of JSON (JavaScript Object Notation) through the book 'JavaScript and jQuery' written by Jon Duckett.
- * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/readme-love-maths/blob/master/README.md)
- * Mozilla Developer Network (MDN) for understanding JavaScript built-in methods.
- * After reading 'JavaScript and jQuery' by Jon Duckett, I gained an understanding of localStorage and how it can be used in web development.
- * MDN Web Docs: HTMLTableElement.insertRow(): [link](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement/insertRow), helped me to understand insertRow() method.
- * MDN Web Docs: [link]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), helped me understand arrow functions.
+ * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/readme-love-maths/blob/master/README.md
+   * Content was written by the developer with the help of google searches whenever there wa an issue.
+  * Some content was copied from walkthrough project and from code that I have learnt from the course. 
  
  ### Content
 
-  * Content was written by the developer with the help of google searches whenever there wa an issue.
-  * Some content was copied from walkthrough project and from code that I have learnt from the course. 
+  * Content was written by the developer with the help of google searches tp understand the extra additions to the traditional rock paper scissors game.  
 
 ### Media
 
