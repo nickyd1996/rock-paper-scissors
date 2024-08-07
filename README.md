@@ -144,17 +144,17 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 ### Validation results
 
 <details>
-<summary>HTML files, no errors were returned when passing through the official W3C Markup Validator.
+<summary>HTML files, no errors were returned when passing through W3C Markup Validator.
 </summary>
 
-![Home Page validation result](/assets/images/html-validation.PNG)
+![Home Page validation result](assets/images/html-result.png)
 </details>
 
 <details>
 <summary>CSS file, No errors were found when passing through the official W3C CSS Validator. 
 </summary>
 
-![Home Page validation result](/assets/images/css-validation.PNG)
+![Home Page validation result](assets/images/css-result.png)
 </details>
 
 ### JSHint results
@@ -163,51 +163,26 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>index.js, No errors were found when passing through the official Jshint validator.
 </summary>
 
-![Home Page validation result](/assets/images/index-js.PNG)
+![Home Page validation result](assets/images/jshint-result.png)
 </details>
 
 <details>
 <summary>quiz.js, No errors were found when passing through the official Jshint validator.
 </summary>
 
-![Home Page validation result](/assets/images/quiz-js.PNG)
-</details>
-
-<details>
-<summary>quiz-end.js, No errors were found when passing through the official Jshint validator.
-</summary>
-
-![Home Page validation result](/assets/images/quiz-end-js.PNG)
-</details>
-
-<details>
-<summary>highscores.js, No errors were found when passing through the official Jshint validator.
-</summary>
-
-![Home Page validation result](/assets/images/highscores-js.PNG)
-</details>
-
 ### Manual Testing 
 
 * The website was tested on Google Chrome, Microsoft Edge, and Opera browsers.
-* The website was viewed on a desktop computer, laptop, tablet, and a variety of mobile phones, such as Samsung Galaxy A52.
+* The website was viewed on a desktop computer, laptop, tablet, and a mobile phones, such as Iphone 12 pro.
 * A large amount of testing was done to ensure links between pages are working correctly on all pages.
 * Family and friends were asked to review the website for a better understanding of the user experience.
-* Family and friends were asked to play the quiz and give feedback.
+* Family and friends were asked to play the game and give feedback.
 * Dev Tools was used to test how the site looks on various screen sizes.
-* Dev Tools Console was used to find any bugs that were not spotted.
-* Dev Tools Application's local storage used to track is the code functioning as intended.
-* Manually navigating to specific HTML pages by typing the URL of the page and checking the console and local storage.
-* JSHint was used to check quality of the code and any errors missed by the developer.
 
 ### Fixed Bugs
 
-* By manually navigating to specific HTML pages by typing the URL of the page and checking the console and local storage
-* By manually navigating to quiz-end.html there was a bug displaying null value of the username and score variables that were stored it the local storage.
-* Bug was fixed with window.location.href, if a user tries to navigate to the quiz-end.html manually it redirects them to the index.html page because they didin't play the quiz yet.
-* The code checks if the mostRecentScore is -1 and that is how it triggers the redirect to index.html page
-* If somebody decided to clear all key, value properties from the local storage they still would not be able to start the quiz.
-* The website is protected from users starting the game without a username.
+* Bug appeared that dropped the restart page. this was fixed by commenting out code until the restart game page returned. 
+* Bug was fixed with as css style sheet was not linked correctly.
 
 ### Lighthouse Report
 
@@ -216,7 +191,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>Performance
 </summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-report-mobile.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-report-mobile.png)
 </details>
 
 #### Desktop analysis
@@ -225,7 +200,7 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 <summary>Performance
 </summary>
 
-![Home Page lighthouse report](/assets/images/lighthouse-report-desktop.PNG)
+![Home Page lighthouse report](/assets/images/lighthouse-laptop.png)
 </details>
 
 ## Deployment
@@ -240,13 +215,6 @@ GitHub Pages used to deploy live version of the website.
 5. The page will automatically refresh.
 6. Scroll back to locate the now-published site [link](https://thomas-tomo.github.io/capital-cities/) in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
-
-By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
-
-1. Log in to GitHub and locate [GitHub Repository capital-cities](https://github.com/Thomas-Tomo/capital-cities)
-2. At the top of the Repository(under the main navigation) locate "Fork" button.
-3. Now you should have a copy of the original repository in your GitHub account.
 
 ### Local Clone
 
@@ -261,6 +229,7 @@ By forking the repository, we make a copy of the original repository on our GitH
 ---
 
 ## Credits
+
 
 ### Code
 
