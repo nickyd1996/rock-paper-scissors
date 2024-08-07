@@ -11,7 +11,7 @@
     <div id="startPage" class="page">
         <h1>Welcome to Rock Paper Scissors Lizard Spock</h1>
         <button id="startGameButton" onclick="startGame()">Start Game</button>
-        <button onclick="openRules()">Rules</button>
+        <button id="rulesButton" onclick="openRules()">Rules</button>
     </div>
     <div id="gamePage" class="page" style="display: none;">
         <h1>Rock Paper Scissors Lizard Spock</h1>
@@ -22,6 +22,7 @@
             <button class="lizard" onclick="playGame('lizard')">Lizard</button>
             <button class="spock" onclick="playGame('spock')">Spock</button>
         </div>
+        <div class="computer-choice" id="computerChoice">Computer's Choice: <span id="computerChoiceText"></span></div>
         <div class="score" id="score">Tries: 0 | Player Wins: 0 | Computer Wins: 0</div>
         <div class="final-result" id="finalResult"></div>
         <div class="result" id="result"></div>

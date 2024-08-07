@@ -17,6 +17,8 @@ function resetGame() {
     document.getElementById('score').innerText = `Tries: 0 | Player Wins: 0 | Computer Wins: 0`;
     document.getElementById('finalResult').innerText = '';
     document.getElementById('result').innerText = '';
+    //document.getElementById('computerChoiceText').innerText = '';
+    //clearHighlight();
 }
 
 function playGame(playerChoice) {
@@ -49,6 +51,9 @@ function playGame(playerChoice) {
     tries++;
     document.getElementById('result').innerText = result;
     document.getElementById('score').innerText = `Tries: ${tries} | Player Wins: ${playerWins} | Computer Wins: ${computerWins}`;
+    document.getElementById('computerChoiceText').innerText = computerChoice;
+    
+    
 
     if (tries >= 5) {
         if (playerWins > computerWins) {
