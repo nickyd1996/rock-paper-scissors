@@ -1,3 +1,4 @@
+/*General Body Styling*/
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,7 +14,7 @@ body {
     display: none;
     text-align: center;
 }
-
+/*page specific styling*/
 #startPage {
     display: block;
     display: flex;
@@ -21,6 +22,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+/*Button Styling*/
 #startGameButton{
     padding: 10px 20px;
     font-size: 18px;
@@ -48,6 +50,7 @@ body {
     color: #28405c;
     border-radius: 20px;
 }
+/*Added container styling to create a contrast*/
 .container {
     background-color: #94c4c1;
     padding: 20px;
@@ -56,9 +59,9 @@ body {
     width: 80%;
     border-style: groove;
     border-color: #28405c;
-    /*max-width: 500px;*/
-}
 
+}
+/*Page specific styling*/
 #gamePage {
     display: none;
     display: flex;
@@ -73,13 +76,13 @@ body {
     align-items: center;
     justify-content: center;
 }
-
+/*game choices styling*/
 .choices {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+/*choices buttons styling*/
 .choices button {
     padding: 10px 20px;
     font-size: 18px;
@@ -102,7 +105,7 @@ body {
     margin: 5px 0;
     font-size: 20px;
 }
-
+/* media query for phones*/
 @media (max-width: 600px) {
     .choices button {
         padding: 8px 16px;
@@ -122,6 +125,7 @@ body {
         font-size: 16px;
     }
 }
+/*modal popup*/
 .modal {
     display: none; 
     position: fixed; 
@@ -135,7 +139,7 @@ body {
     background-color: rgba(0,0,0,0.4); 
    
 }
-
+/*content styling of the modal popup*/
 .modal-content {
     background-color: #f9c7be;
     margin: 15% auto; 
@@ -160,11 +164,10 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+/*styling for the computers choice*/
 #computerChoice {
     margin-top: 20px;
     font-size: 24px;
 }
 
-.highlight {
-    background-color: yellow;
-}
+
