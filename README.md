@@ -26,8 +26,6 @@ The game's focus is like the game that we have all played growing up, but with t
 * [Lighthouse Report](#lighthouse-report)
 ### [Deployment](#deployment-1)
 * [GitHub Pages](#github-pages)
-* [Forking the GitHub Repository](#forking-the-github-repository)
-* [Local Clone](#local-clone)
 ### [Credits](#credits-1)
 * [Code](#code)
 * [Content](#content)
@@ -61,7 +59,7 @@ Rock Paper Scissors Lizard Spock game provides an enjoyable experience that chal
 
  * Wireframes
     * Pen and paper in the notebook.
-    
+
 ## Features
 
 * The main objective of this website is to provide and exciting platform for users to enjoy and destress from everyday life. 
@@ -124,8 +122,6 @@ Rock Paper Scissors Lizard Spock game provides an enjoyable experience that chal
 
 * [Gitpod](https://www.gitpod.io/)
     * To write the code.
-* [Git](https://git-scm.com/)
-    * for vesion control.
 * [Github](https://github.com/)
     * Deployment of the website and storing the files online.
 * [Am I Responsive](https://ui.dev/amiresponsive)
@@ -212,18 +208,6 @@ GitHub Pages used to deploy live version of the website.
 5. The page will automatically refresh.
 6. Scroll back to locate the now-published site [link](https://thomas-tomo.github.io/capital-cities/) in the "GitHub Pages" section.
 
-
-### Local Clone
-
-1. Log in to GitHub and locate [GitHub Repository capital-cities](https://github.com/Thomas-Tomo/capital-cities)
-2. Under the repository name click "Clone or download"
-3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone` and then paste The URL copied in the step 3.
-7. Press Enter and your local clone will be created.
-
----
 
 ## Credits
 
