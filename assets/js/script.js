@@ -72,3 +72,18 @@ function restartGame() {
     document.getElementById('restartPage').style.display = 'none';
     document.getElementById('startPage').style.display = 'flex';
 }
+
+function openRules() {
+    document.getElementById('rulesModal').style.display = 'block';
+}
+
+function closeRules() {
+    document.getElementById('rulesModal').style.display = 'none';
+}
+
+window.onclick = function(event) {
+    const modal = document.getElementById('rulesModal');
+    if (event.target == modal) {
+        modal.style.display = 'none';
+    }
+}
