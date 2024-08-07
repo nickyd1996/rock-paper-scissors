@@ -166,9 +166,6 @@ The W3C Markup Validator, W3C CSS Validator and JSHint, a JavaScript Code Qualit
 ![Home Page validation result](assets/images/jshint-result.png)
 </details>
 
-<details>
-<summary>quiz.js, No errors were found when passing through the official Jshint validator.
-</summary>
 
 ### Manual Testing 
 
@@ -242,14 +239,11 @@ GitHub Pages used to deploy live version of the website.
  
  ### Content
 
-  * All content was written by the developer.
-  * [Font Awesome](https://fontawesome.com/) was used to obtain the free icon for the header.
-  * Same icon was used to create a favicon the the website.
+  * Content was written by the developer with the help of google searches whenever there wa an issue.
+  * Some content was copied from walkthrough project and from code that I have learnt from the course. 
 
 ### Media
 
- * [Font Awesome](https://fontawesome.com/)
- * [Color Mind](http://colormind.io/)
  * [Am I responsive?](https://ui.dev/amiresponsive)
 
 
