@@ -5,6 +5,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f9c7be;
+    color: #28405c;
 }
 
 .page {
@@ -24,12 +26,37 @@ body {
     font-size: 18px;
     margin: 10px;
     cursor: pointer;
+    background-color: #f9c7be;
+    color: #28405c;
+    border-radius: 20px;
 }
 #rulesButton{
     padding: 10px 20px;
     font-size: 18px;
     margin: 10px;
     cursor: pointer;
+    background-color: #f9c7be;
+    color: #28405c;
+    border-radius: 20px;
+}
+#restartButton{
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #f9c7be;
+    color: #28405c;
+    border-radius: 20px;
+}
+.container {
+    background-color: #94c4c1;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    border-style: groove;
+    border-color: #28405c;
+    /*max-width: 500px;*/
 }
 
 #gamePage {
@@ -58,6 +85,9 @@ body {
     font-size: 18px;
     margin: 10px;
     cursor: pointer;
+    background-color: #f9c7be;
+    color: #28405c;
+    border-radius: 20px;
 }
 
 .result {

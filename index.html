@@ -9,11 +9,14 @@
 <body>
     <!--some code copied from code institute project walkthrough-->
     <div id="startPage" class="page">
+        <div class="container">
         <h1>Welcome to Rock Paper Scissors Lizard Spock</h1>
         <button id="startGameButton" onclick="startGame()">Start Game</button>
         <button id="rulesButton" onclick="openRules()">Rules</button>
+        </div>
     </div>
     <div id="gamePage" class="page" style="display: none;">
+        <div class="container">
         <h1>Rock Paper Scissors Lizard Spock</h1>
         <div class="choices">
             <button class="rock" onclick="playGame('rock')">Rock</button>
@@ -26,17 +29,19 @@
         <div class="score" id="score">Tries: 0 | Player Wins: 0 | Computer Wins: 0</div>
         <div class="final-result" id="finalResult"></div>
         <div class="result" id="result"></div>
+        </div>
     </div>
     <div id="restartPage" class="page" style="display: none;">
+        <div class="container">
         <h1 id="finalMessage"></h1>
         <div class="final-score">
             <p id="finalPlayerWins"></p>
             <p id="finalComputerWins"></p>
             <p id="finalTies"></p>
         </div>
-        <button onclick="restartGame()">Restart Game</button>
+        <button id="restartButton" onclick="restartGame()">Restart Game</button>
+        </div>
     </div>
-
     <div id="rulesModal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeRules()">&times;</span>
