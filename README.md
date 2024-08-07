@@ -29,7 +29,6 @@ The game's focus is like the game that we have all played growing up, but with t
 ### [Credits](#credits-1)
 * [Code](#code)
 * [Content](#content)
-* [Media](#media)
 ### [Acknowledgements](#acknowledgements-1)
 ---
 ## User Experience (UX)
@@ -222,9 +221,6 @@ GitHub Pages used to deploy live version of the website.
 
   * Content was written by the developer with the help of google searches tp understand the extra additions to the traditional rock paper scissors game.  
 
-### Media
-
- * [Am I responsive?](https://ui.dev/amiresponsive)
 
 
 ---
