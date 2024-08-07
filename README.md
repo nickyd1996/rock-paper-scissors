@@ -51,7 +51,17 @@ Rock Paper Scissors Lizard Spock game provides an enjoyable experience that chal
     * Continuing to enjoy the overall experience.
 
 ---
+## Design
 
+ * Colour Scheme
+    * Primary colors used on the website: ![Color Scheme](assets/images/color-scheme.jpg)
+
+ * Typography
+    * Arial font is the main font used throughout the website with san-serif as its fallback font.
+
+ * Wireframes
+    * Pen and paper in the notebook.
+    
 ## Features
 
 * The main objective of this website is to provide and exciting platform for users to enjoy and destress from everyday life. 
@@ -98,16 +108,6 @@ Rock Paper Scissors Lizard Spock game provides an enjoyable experience that chal
 
 ---
 
-## Design
-
- * Colour Scheme
-    * Primary colors used on the website: ![Color Scheme](assets/images/color-scheme.jpg)
-
- * Typography
-    * Arial font is the main font used throughout the website with san-serif as its fallback font.
-
- * Wireframes
-    * Pen and paper in the notebook.
 
 ---
 
