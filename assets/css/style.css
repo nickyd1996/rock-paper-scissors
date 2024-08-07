@@ -62,6 +62,10 @@ body {
     margin-top: 20px;
     font-size: 24px;
 }
+.final-score p {
+    margin: 5px 0;
+    font-size: 20px;
+}
 @media (max-width: 600px) {
     .choices button {
         padding: 8px 16px;
